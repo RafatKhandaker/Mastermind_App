@@ -48,6 +48,77 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50dp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="DIFFUCULTY: "
+            android:id="@+id/difficulty_tv"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Advanced"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/advanced_tv"
+        />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adv_rad"
+            android:layout_marginTop="151dp"
+            android:layout_marginLeft="140dp"
+            android:buttonTint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Intermediate"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/intermediate_tv"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/int_rad"
+            android:layout_marginTop="191dp"
+            android:layout_marginLeft="140dp"
+            android:buttonTint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Beginner"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/beginner_tv"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/beg_rad"
+            android:layout_marginTop="231dp"
+            android:layout_marginLeft="140dp"
+            android:buttonTint="#FFFFFF"/>
+
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
